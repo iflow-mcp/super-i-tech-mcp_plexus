@@ -1,6 +1,6 @@
 [project]
 name = "iflow-mcp_super-i-tech_mcp_plexus"
-version = "0.2.6" # Match your app version or manage this better
+version = "0.2.8" # Match your app version or manage this better
 description = "MCP Plexus: Multi-Tenant, OAuth-Enabled MCP Server Framework"
 readme = "README.md"
 requires-python = ">=3.10" 
@@ -18,7 +18,7 @@ dependencies = [
 
 [project.scripts]
 iflow-mcp-super-i-tech-mcp-plexus = "mcp_plexus.cli.main_cli:cli_entry_point"
-iflow-mcp-super-i-tech-mcp-plexus-stdio = "mcp_plexus_stdio:main"
+iflow-mcp-super-i-tech-mcp-plexus-stdio = "mcp_plexus.stdio_entry:main"
 
 # This assumes your mcp_plexus package is directly under the project root.
 # If mcp_plexus is inside an src/ directory, adjust 'where' and 'include'.
